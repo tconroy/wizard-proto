@@ -1,0 +1,16 @@
+.Wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+}
+
+.LeftRegion {
+  flex: 1;
+  outline: 1px solid red;
+}
+
+.RightRegion {
+  flex-basis: 40%;
+  outline: 1px solid blue;
+}

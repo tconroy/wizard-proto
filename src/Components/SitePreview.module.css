@@ -1,0 +1,13 @@
+.Root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.Frame {
+  height: 75%;
+  width: 75%;
+  aspect-ratio: 601/651;
+}

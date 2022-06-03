@@ -1,0 +1,43 @@
+.Root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-width: 1280px;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.Body {
+  flex: auto;
+  background-color: #ccc;
+}
+
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.Button {
+  min-width: 100px;
+}
+
+.Progress {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: auto;
+}
+
+li.StepName {
+}
+
+li.Current {
+  font-weight: bold;
+}
